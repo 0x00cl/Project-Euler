@@ -1,5 +1,7 @@
+problemx = problem1
+
 build:
 	@mkdir -p bin
-	@gcc -Wall -O3 -o bin/problem1 main.c
+	@gcc -Wall -O3 -o bin/${problemx} main.c -pthread
 	@echo 'Finished compiling'
-	@echo 'Execute with `./bin/problem1`'
+	@echo 'Execute with `./bin/${problemx}`'
