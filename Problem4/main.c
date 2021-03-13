@@ -19,16 +19,12 @@ int is_palindrome(int number) {
 int main() {
         int largest_palindrome = 0;
         int product = 0;
-        for (int i = 0; i < 1000; i++) {
-                for (int j = 0; j < i; j++) {
-                        if (i == j)
-                                continue;
-
+        for (int i = 100; i < 1000; i++) {
+                for (int j = 100; j < i; j++) {
                         product = i * j;
                         if (is_palindrome(product)) {
-                                if (largest_palindrome < product) {
+                                if (largest_palindrome < product)
                                         largest_palindrome = product;
-                                }
                         }
                 }
         }
