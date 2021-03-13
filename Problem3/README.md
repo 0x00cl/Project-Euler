@@ -13,7 +13,7 @@ What is the largest prime factor of the number 600851475143 ?
 ### Option 2
 1. `$ mkdir -p bin`
 
-2. `$ gcc -W -O3 -o bin/problem3 main.c`
+2. `$ gcc -Wall -O3 -o bin/problem3 main.c`
 
 ## Execution
 `$ ./bin/problem3`

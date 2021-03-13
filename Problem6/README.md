@@ -23,7 +23,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 ### Option 2
 1. `$ mkdir -p bin`
 
-2. `$ gcc -W -O3 -o bin/problem6 main.c`
+2. `$ gcc -Wall -O3 -o bin/problem6 main.c`
 
 ## Execution
 `$ ./bin/problem6`

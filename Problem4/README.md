@@ -13,7 +13,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 ### Option 2
 1. `$ mkdir -p bin`
 
-2. `$ gcc -W -O3 -o bin/problem4 main.c`
+2. `$ gcc -Wall -O3 -o bin/problem4 main.c`
 
 ## Execution
 `$ ./bin/problem4`

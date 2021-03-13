@@ -13,7 +13,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 ### Option 2
 1. `$ mkdir -p bin`
 
-2. `$ gcc -W -O3 -o bin/problem1 main.c`
+2. `$ gcc -Wall -O3 -o bin/problem1 main.c`
 
 ## Execution
 `$ ./bin/problem1`

@@ -14,7 +14,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 ### Option 2
 1. `$ mkdir -p bin`
 
-2. `$ gcc -W -O3 -o bin/problem5 main.c`
+2. `$ gcc -Wall -O3 -o bin/problem5 main.c`
 
 ## Execution
 `$ ./bin/problem5`

@@ -15,7 +15,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 ### Option 2
 1. `$ mkdir -p bin`
 
-2. `$ gcc -W -O3 -o bin/problem2 main.c`
+2. `$ gcc -Wall -O3 -o bin/problem2 main.c`
 
 ## Execution
 `$ ./bin/problem2`
