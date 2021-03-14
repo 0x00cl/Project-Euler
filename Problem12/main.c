@@ -8,16 +8,16 @@ int main() {
                 for (int j = 1; j <= i; j++)
                         tmp_sum = tmp_sum + j;
 
-            int tmp_divisors = 0;
-            for (int k = 1; k <= tmp_sum; k++) {
-                    if (tmp_sum % k == 0)
-                            tmp_divisors++;
-            }
+                int tmp_divisors = 0;
+                for (int k = 1; k <= tmp_sum; k++) {
+                        if (tmp_sum % k == 0)
+                                tmp_divisors++;
+                }
 
-            if (tmp_divisors >= divisors) {
-                    largest_divisors = tmp_sum;
-                    break;
-            }
+                if (tmp_divisors >= divisors) {
+                        largest_divisors = tmp_sum;
+                        break;
+                }
         }
 
         printf("Result: %d\n", largest_divisors);
