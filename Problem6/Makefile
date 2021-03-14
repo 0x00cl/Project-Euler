@@ -1,5 +1,11 @@
+problemx = problem6
+
 build:
 	@mkdir -p bin
-	@gcc -Wall -O3 -o bin/problem6 main.c
+	@gcc -Wall -O3 -o bin/${problemx} main.c
 	@echo 'Finished compiling'
-	@echo 'Execute with `./bin/problem6`'
+	@echo 'Execute with `./bin/${problemx}`'
+
+clean:
+	@rm -rf bin
+	@echo 'bin/ deleted'
