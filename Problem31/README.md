@@ -20,7 +20,7 @@ How many different ways can £2 be made using any number of coins?
 ### Option 2
 1. `$ mkdir -p bin`
 
-2. `$ gcc -Wall -Wextra -O3 -o bin/problem30 main.c`
+2. `$ gcc -Wall -Wextra -O3 -o bin/problem31 main.c`
 
 ## Execution
 `$ ./bin/problem31`
