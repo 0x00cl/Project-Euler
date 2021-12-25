@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-        int  result = 0, total_den = 1, total_num = 1, l = 0;
-        int numerator[4] = {0}, denominator[4] = {0};
+        int  result = 0, total_den = 1, total_num = 1;
         for (int i = 12; i < 100; i++) {
                 for (int j = 11; j < i; j++) {
                         double units_i = i % 10;
@@ -19,16 +18,10 @@ int main() {
                         double tu_division = tens_j/units_i;
 
                         if (division == tu_division) {
-                                numerator[l] = units_i;
-                                denominator[l] = tens_j;
-                                l++;
+                                total_num *= units_i;
+                                total_den *= tens_j;
                         }
                 }
-        }
-
-        for (int i = 0; i < 4; i++) {
-                total_num = total_num * numerator[i];
-                total_den = total_den * denominator[i];
         }
 
         for (int i = total_den; i > 0; i--){
